@@ -1,0 +1,94 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+body {
+    display: flex;
+    justify-content: center;
+    font-family: "Montserrat", sans-serif;
+    background: rgba(91, 27, 6, 0.868);
+}
+
+.form {
+    background-color: #ffffffb0;
+    padding: 0 20px 20px 20px;
+    margin-top: 10%;
+    width: 25em;
+    display: flex;
+    flex-direction: column;
+    align-items: flex;
+    border-radius: 7px;
+}
+
+.titulo {
+    color: rgba(91, 27, 6, 0.868);
+    margin-top: 30px;
+    text-align: center;
+}
+
+label {
+    font-weight: bold;
+}
+
+.input {
+    margin: 10px 0;
+    height: 2.5em;
+    padding-inline-start: 0.5em;
+    border: none;
+    cursor: pointer;
+    border-radius: 7px;
+}
+
+.input:focus {
+    outline: none;
+    border: 2px solid #bf3e02;
+}
+
+input::-webkit-datetime-edit{
+    min-width: 100%;
+  }
+
+  button {
+    height: 35px;
+    background: cadetblue;
+    color: #fff;
+    font-weight: bolder;
+    font-size: 15px;
+    border: none;
+    border-radius: 7px;
+    margin-top: 15px;
+    cursor: pointer;
+  }
+
+  button:hover {
+    background: rgb(13, 118, 121);
+    border: 3px solid #FFF;
+  }
+
+  .resultado {
+    background: rgba(5, 170, 120, 0.784);
+    text-align: center;
+    padding-top: 10px;
+    height: 30px;
+    font-weight: bold;
+    border-radius: 7px;
+    display: none;
+  }
+
+  .caveira {
+    background-color: #ffffffb0;
+    padding: 20px;
+    margin-top: 10%;
+    border-radius: 7px;
+    display: none;
+  }
+
+  span {
+    font-size: 20em;
+
+  }
+
+  .morte{
+    font-size: 5em;
+    text-align: center;
+    margin: 0;
+    color: red;
+  }
